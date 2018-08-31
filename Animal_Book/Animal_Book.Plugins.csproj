@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{81A53CDC-6F34-2946-BA23-6A20500D70D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.6f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;VUFORIA_ANDROID_SETTINGS;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;VUFORIA_ANDROID_SETTINGS;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteVersionScriptsDLL">
+      <HintPath>Assets/DragAndDropPuzzle/DDP Scripts/LiteVersionScriptsDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Scripts">
+      <HintPath>Assets/Puzzle Maker/PM Scripts/Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-Editor">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.6-Runtime">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity5.6/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\MenuManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DFT Games\Localization\Demo\AllTexts.txt" />
+    <None Include="Assets\DFT Games\Localization\Demo\Resources\localization\English.txt" />
+    <None Include="Assets\DFT Games\Localization\Demo\Resources\localization\Vietnamese.txt" />
+    <None Include="Assets\DFT Games\Localization\Documentation.txt" />
+    <None Include="Assets\DragAndDropPuzzle\DDP Free Resources\Audio\ReadMe.txt" />
+    <None Include="Assets\DragAndDropPuzzle\DDP Free Resources\ReadMe.txt" />
+    <None Include="Assets\Extensions\AndroidManifestManager\default.xml" />
+    <None Include="Assets\Extensions\AndroidNative\Documentation\AN_VersionNotes.txt" />
+    <None Include="Assets\Jigsaw\-Read-Me-.txt" />
+    <None Include="Assets\Jigsaw\Materials\shaderGrayColored.shader" />
+    <None Include="Assets\Jigsaw\Materials\shaderTransparentGrayColored.shader" />
+    <None Include="Assets\LeanTouch\Examples\Fonts\OFL.txt" />
+    <None Include="Assets\LeanTouch\Examples\Shaders\Skybox.shader" />
+    <None Include="Assets\LeanTouch\Examples\Shaders\Smooth.shader" />
+    <None Include="Assets\OneMinuteGui\Font\CarterOne\OFL.txt" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.59.0.txt" />
+    <None Include="Assets\Plugins\Android\AN_Res\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\values\analytics.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\values\ids.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\values\version.xml" />
+    <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\AN_Res\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\analytics.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\ids.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\version.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\xml\file_paths.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\StansAssets\Android\OneSignalSDK.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\androidnative.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\app_licensing\an_licensing_library.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\billing\an_billing.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\google_play\an_googleplay.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\google_play\google-play-services.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\libs\an_sa_soomla.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\libs\android-support-v4.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\libs\image-chooser-library-1.3.0.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\social\an_social.txt" />
+    <None Include="Assets\Plugins\StansAssets\Android\social\twitter4j-core-3.0.5.txt" />
+    <None Include="Assets\Plugins\StansAssets\Versions\AN_VersionInfo.txt" />
+    <None Include="Assets\Plugins\StansAssets\Versions\MSP_VersionInfo.txt" />
+    <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
+    <None Include="Assets\Puzzle Maker\READ ME.txt" />
+    <None Include="Assets\Shader\BlackShader.shader" />
+    <None Include="Assets\Shader\WhiteShader.shader" />
+    <None Include="Assets\Slider Menu Pro_New Edition\Texture And Materials\Blur.shader" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Crocodile\Crocodile_01\Model\CrocodileLP_01.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Crocodile\Crocodile_01\Model\Crocodile_01.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Crocodile\Crocodile_02\Model\CrocodileLP_02.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Crocodile\Crocodile_02\Model\Crocodile_02.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Elephant\Model\Elephant.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Elephant\Model\ElephantLP.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Hippo\Model\Hippo.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Hippo\Model\HippoLP.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Lion\Model\LionSV.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Lion\Model\LionSV_MR.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Lioness\Model\lioness.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Lioness\Model\lioness_RM.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Rhinoceros\Model\Rhino.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Rhinoceros\Model\RhinoLP.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Zebra\Model\Zebra.txt" />
+    <None Include="Assets\Sources\3d model\African Animal Pack 1\Zebra\Model\ZebraLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Buffalo\Model\Buffalo.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Buffalo\Model\BuffaloLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Dromader\Model\Dromader.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Dromader\Model\DromaderLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Gazelle\Model\Gazelle.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Gazelle\Model\GazelleLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Giraffe\Model\Giraffe.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Giraffe\Model\GiraffeLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Gorilla\Model\Gorilla.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Gorilla\Model\GorillaLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Hyena\Model\Hyena.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Hyena\Model\HyenaLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Tiger\Model\Tiger.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\Tiger\Model\TigerLP.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\cheetah\Model\cheetah.txt" />
+    <None Include="Assets\Sources\3d model\AfricanAnimalPack-2\cheetah\Model\cheetahLP.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\UGalleryFlow\Content\Art\Shader\UIMask.shader" />
+    <None Include="Assets\UGalleryFlow\ReadMe.txt" />
+    <None Include="Assets\license_3rdpartynotice.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\readme_SDK.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

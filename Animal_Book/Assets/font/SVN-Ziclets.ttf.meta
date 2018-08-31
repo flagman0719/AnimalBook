@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e467ebd52c238424092d5a48d2770d2b
+timeCreated: 1512287580
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SVN-Ziclets
+  fontNames:
+  - SVN-Ziclets
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

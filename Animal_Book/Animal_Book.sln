@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal_Book.Plugins", "Animal_Book.Plugins.csproj", "{81A53CDC-6F34-2946-BA23-6A20500D70D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal_Book", "Animal_Book.csproj", "{40EB6877-5DCB-D844-CAF5-64D4FD2AA199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal_Book.Editor", "Animal_Book.Editor.csproj", "{EA59E440-1D93-33A3-F246-64D247F23AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A53CDC-6F34-2946-BA23-6A20500D70D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A53CDC-6F34-2946-BA23-6A20500D70D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A53CDC-6F34-2946-BA23-6A20500D70D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A53CDC-6F34-2946-BA23-6A20500D70D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EB6877-5DCB-D844-CAF5-64D4FD2AA199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EB6877-5DCB-D844-CAF5-64D4FD2AA199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EB6877-5DCB-D844-CAF5-64D4FD2AA199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EB6877-5DCB-D844-CAF5-64D4FD2AA199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA59E440-1D93-33A3-F246-64D247F23AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA59E440-1D93-33A3-F246-64D247F23AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA59E440-1D93-33A3-F246-64D247F23AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA59E440-1D93-33A3-F246-64D247F23AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 16537f06f31a9bd4cbac0fe66393b55f
+timeCreated: 1495217321
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: TYPO COMICS Light DEMO
+  fontNames:
+  - TYPO COMICS Light DEMO
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
