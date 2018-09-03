@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Main Menu.unity
+- path: Assets/Pics Quiz Maker With Categories/Scenes/Quiz.unity
   isLoaded: 1
   isActive: 1
